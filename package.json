@@ -1,0 +1,23 @@
+{
+  "name": "open-content",
+  "version": "0.0.0",
+  "description": "This is the server side folder/file structure for the open content server.",
+  "main": "index.coffee",
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee --join template/js/app.js  --compile template/lib/*.coffee && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seabourne/open-content.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "80f24bd5efc1458025a0e92f85367b4d3e4b00f7",
+  "bugs": {
+    "url": "https://github.com/seabourne/open-content/issues"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}

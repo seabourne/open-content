@@ -1,0 +1,28 @@
+{
+  "uri": "http://localhost:8080/content/my-article.json",
+  "link": "http://localhost:8080/#/content/my-article.html",
+  "type": "http://localhost:8080/schema/article.json",
+  "content": {
+    "title": {
+      "uri": "http://localhost:8080/content/my-article-title.json",
+      "type": "http://localhost:8080/schema/title.json",
+      "content": {
+        "text": "Some title"
+      }
+    },
+    "paragraphs": [
+      {
+        "uri": "http://localhost:8080/content/my-article-paragraph-1.json",
+        "type": "http://localhost:8080/schema/paragraph.json",
+        "content":{
+          "text": "This is a longer paragraph"
+        },
+        "meta": {
+          "style":{
+            "text-align": "right"
+          }
+        }
+      }
+    ]
+  }
+}
